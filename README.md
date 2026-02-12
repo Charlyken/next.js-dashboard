@@ -2,6 +2,11 @@
 
 Ce projet est une application de tableau de bord complète construite avec Next.js, suivant le tutoriel officiel <strong>"Learn Next.js"</strong>. Il met en œuvre des fonctionnalités essentielles telles que l'authentification, la gestion de données (clients et factures), et l'affichage de statistiques.
 
+<p>
+    <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge" alt="charly ken">
+    <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="charly ken">
+</p>
+
 ## ✨ Fonctionnalités
 
 - **Authentification des utilisateurs** : Pages de connexion sécurisées avec `Next-Auth`.
@@ -19,6 +24,11 @@ Ce projet est une application de tableau de bord complète construite avec Next.
 - **Authentification** : [Next-Auth](https://next-auth.js.org/)
 - **Base de données** : [Vercel Postgres](https://vercel.com/storage/postgres)
 - **Validation** : [Zod](https://zod.dev/)
+
+## 🎬 Démo visuelle
+> *Note : Capture d'écran du dashboard Admin.*
+
+<img src="public/dasboard.png"  alt="Admin dashboard charly ken">
 
 ## 🚀 Démarrage Rapide
 
