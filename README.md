@@ -1,6 +1,6 @@
-# Tableau de Bord Next.js
+# Tableau de Bord Next.js <code>(En cours)</code>
 
-Ce projet est une application de tableau de bord complète construite avec Next.js, suivant le tutoriel officiel "Learn Next.js". Il met en œuvre des fonctionnalités essentielles telles que l'authentification, la gestion de données (clients et factures), et l'affichage de statistiques.
+Ce projet est une application de tableau de bord complète construite avec Next.js, suivant le tutoriel officiel <strong>"Learn Next.js"</strong>. Il met en œuvre des fonctionnalités essentielles telles que l'authentification, la gestion de données (clients et factures), et l'affichage de statistiques.
 
 ## ✨ Fonctionnalités
 
