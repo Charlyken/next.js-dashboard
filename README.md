@@ -2,7 +2,7 @@
 
 Ce projet est une application de tableau de bord complète construite avec Next.js, suivant le tutoriel officiel <strong>"Learn Next.js"</strong>. Il met en œuvre des fonctionnalités essentielles telles que l'authentification, la gestion de données (clients et factures), et l'affichage de statistiques.
 
-<p>
+<p align="center">
     <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge" alt="charly ken">
     <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="charly ken">
     <img src="https://shields.io/badge/supabase-black?logo=supabase&style=for-the-badge" alt="charly ken">
