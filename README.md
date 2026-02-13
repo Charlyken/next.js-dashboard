@@ -89,3 +89,6 @@ Vous pouvez déclencher le script en visitant la route `/seed` dans votre naviga
 ```bash
 curl http://localhost:3000/seed
 ```
+<div align="center">
+  <i>Développé par Charly Keuni.</i>
+</div>
