@@ -7,6 +7,7 @@ Ce projet est une application de tableau de bord complète construite avec Next.
     <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="charly ken">
     <img src="https://shields.io/badge/supabase-black?logo=supabase&style=for-the-badge" alt="charly ken">
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="charly keuni">
+    <img src="https://img.shields.io/badge/-Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="charly ken">
 </p>
 
 ## ✨ Fonctionnalités
