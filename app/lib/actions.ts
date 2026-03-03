@@ -20,7 +20,7 @@ const FormSchema = z.object({
 const CreateInvoice = FormSchema.omit({id: true, date: true});
 
 // Server action to create a new invoice
-export async function createInvoice (formData : FormData){
+export async function createInvoice (formData: FormData){
     // Validate and parse the form data using Zod
     const { customerId, amount, status } = CreateInvoice.parse({
         customerId: formData.get('customerId'),
@@ -31,10 +31,13 @@ export async function createInvoice (formData : FormData){
     const date = new Date().toISOString().split('T')[0];
 
     // Insert the new invoice into the database
+    try{
     await sql`
     INSERT INTO invoices (customer_id, amount, status, date)
     VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
-  `;
+  `;} catch (error) {
+        console.error(error);
+    }
 
     // Revalidate the invoices page and redirect back to it
     revalidatePath('/dashboard/invoices');

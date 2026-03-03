@@ -1,6 +1,7 @@
 import Form from '@/app/ui/invoices/edit-form';
 import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
 import {fetchCustomers, fetchInvoiceById} from '@/app/lib/data';
+import { notFound} from "next/navigation";
 
 /**
  * Fetches the invoice and customers data, then renders the edit invoice form with breadcrumbs.
@@ -15,6 +16,10 @@ export default async function Page(props : { params: Promise<{ id: string }> }) 
         fetchInvoiceById(id),
         fetchCustomers()
     ]);
+
+    if (!invoice) {
+        notFound();
+    }
     return (
         <main>
             <Breadcrumbs
